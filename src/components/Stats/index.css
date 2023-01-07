@@ -1,0 +1,28 @@
+.statParent {
+  padding: 0 20% !important;
+}
+.statBox {
+  box-sizing: border-box;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  /* background-color: rgba(255, 255, 255, 0.1); */
+  background-image: linear-gradient(
+    rgba(126, 126, 126, 0.3),
+    rgba(26, 26, 26, 0.5),
+    rgba(126, 126, 126, 0.3)
+  );
+  color: white;
+  padding: 20px;
+  backdrop-filter: blur(5px);
+  border-radius: 15px;
+}
+
+.statTitle {
+  font-size: 10px;
+  margin: 0;
+}
+
+.statData {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0;
+}
